@@ -12,36 +12,20 @@ A React-based movie application built with Vite and ESLint.
 - [Dependencies](#dependencies)
 
 ## Introduction
-This project is a movie application built with React, Vite, and Material-UI. It allows users to search for movies, view movie details, and add movies to a cart.
+This is a simple To-Do List application built with React and Material UI. It allows users to add, edit, delete, and mark tasks as completed. The tasks are stored locally in the browser using `localStorage`.
+
 ## Features
-- Search for movies by title
-- View movie details, including poster images and descriptions
-- Add movies to a cart and view cart contents
-- Responsive design using Material-UI
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed
+- Delete tasks
+- Persist data across sessions using `localStorage`
+- Filter tasks by "All", "To dos", and "Completed"
+  
 ## Getting Started
 To get started with this project, follow these steps:
-1. Clone the repository using git clone `https://github.com/ppnnoot/movie-app.git`
+1. Clone the repository using git clone `https://github.com/ppnnoot/todolist_app.git`
 2. Install the dependencies using `npm install` or `yarn install`
 3. Start the development server using `npm run dev` or `yarn dev`
 4. Open the app in your browser at `http://localhost:5173/`
-## Project Structure
-The project is structured as follows:
 
-- src: Source code directory
-    - `App.jsx`: Main application component
-    - `components`: Directory for reusable components
-        - `Movielist`: Movie list component
-        - `Navbar`: Navigation bar component
-        - `CartButton`: Cart button component
-        - `CartDetails`: Cart details component
-    - `index.css`: Global CSS styles
-    - `main.jsx`: Entry point for the application
-- `public`: Public directory for static assets
-- `vite.config.js`: Vite configuration file
-
-## Dependencies
-The project uses the following dependencies:
-
-- react: React library
-- react-dom: React DOM library
-- vite: Vite development server
