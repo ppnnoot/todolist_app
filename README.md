@@ -8,8 +8,6 @@ A React-based movie application built with Vite and ESLint.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
 
 ## Introduction
 This is a simple To-Do List application built with React and Material UI. It allows users to add, edit, delete, and mark tasks as completed. The tasks are stored locally in the browser using `localStorage`.
